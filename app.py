@@ -32,7 +32,7 @@ def generate_script(topic):
     prompt = (
         f"Generate a detailed YouTube video script about the topic: '{topic}'. "
         "Include an engaging introduction, a comprehensive explanation of the main points, "
-        "and a concise conclusion. Make sure the content is informative and accessible for viewers interested in AI/ML. and strictly only output the script no extra uncessary text"
+        "and a concise conclusion. Make sure the content is informative and accessible for viewers interested in AI/ML. and strictly only output the script no extra uncessary text but not inside any code snippet"
     )
     try:
         response = client.models.generate_content(
