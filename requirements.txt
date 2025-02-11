@@ -1,0 +1,5 @@
+Flask==2.2.5
+requests==2.28.1
+sift-stack-py
+google-generativeai
+google-genai==0.1.0
